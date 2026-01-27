@@ -24,8 +24,9 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
+        
         } while (ErroLeitura);
+        return valor;
     }
 
     static float lerValorFloat(String mensagem) {
@@ -41,8 +42,9 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
+        
         } while (ErroLeitura);
+        return valor;
     }
 
     static double lerValorDouble(String mensagem) {
@@ -58,8 +60,8 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
         } while (ErroLeitura);
+        return valor;
     }
 
     static long lerValorLong(String mensagem) {
@@ -75,8 +77,8 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
         } while (ErroLeitura);
+        return valor;
     }
 
     static short lerValorShort(String mensagem) {
@@ -92,8 +94,8 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
         } while (ErroLeitura);
+        return valor;
     }
 
     static byte lerValorByte(String mensagem) {
@@ -109,8 +111,8 @@ public class Leitura {
         } finally {
             limparBuffer();
         }
-        return valor;
         } while (ErroLeitura);
+        return valor;
     }
 
     // ---------- TIPOS TEXTUAIS ----------
