@@ -1,2 +1,6 @@
 # Estudos-Java
-Listas de exercicios aos quais pratiquei no 1000Devs
+Repositório dedicado aos estudos de Java no programa 1000Devs.
+
+Tecnologias: Java, VS Code, Git.
+
+LinkedIn: https://www.linkedin.com/in/caua-dias-andrade/
